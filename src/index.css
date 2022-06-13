@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .skeleton-image {
+        @apply h-full w-full rounded-full bg-gray-300 animate-pulse;
+    }
+
+    .skeleton-text {
+        @apply h-4 w-full block bg-gray-300 animate-pulse;
+    }
+}
